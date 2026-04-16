@@ -1,0 +1,15 @@
+peak_load = 95.0  # Max CPU capacity utilization at Minute 0
+c = peak_load     # Vertex of the load surge
+a = -(peak_load / 3600) # Decay constant for a 120-minute registration window
+
+def predict_server_load(minute):
+    """
+    Algorithm: Quadratic Regression
+    Predicts CPU % at a specific minute relative to registration start.
+    """
+    load = (a * (minute**2)) + c
+    return max(0, load)
+
+print(f"Load 15 mins before registration: {predict_server_load(-15):.2f}%")
+print(f"Load at exactly Start Time:      {predict_server_load(0):.2f}%")
+print(f"Load 15 mins after registration:  {predict_server_load(15):.2f}%")
