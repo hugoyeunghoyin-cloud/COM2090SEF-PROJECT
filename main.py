@@ -24,9 +24,9 @@ Original file is located at
 #         print("\n" + "="*45)
 #         print("   HKMU CAMPUS TRAFFIC SYSTEM (v2.0)")
 #         print("="*45)
-#         print("1. IOH (Main Campus)")
-#         print("2. MC (Mong Kok)")
-#         print("3. JCC (Jockey Club)")
+#         print("1. IOH")
+#         print("2. MC")
+#         print("3. JCC")
 #         print("4. Exit")
 # 
 #         choice = input("\nSelect building (1-3) or 4 to Exit: ")
