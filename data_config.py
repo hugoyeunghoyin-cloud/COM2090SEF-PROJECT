@@ -16,17 +16,17 @@ Original file is located at
 # # Traffic intensity values per 10 minutes
 # CAMPUS_DATA = {
 #     '1': {
-#         'name': "IOH Main Campus",
+#         'name': "IOH",
 #         'traffic': [10, 15, 25, 30, 23, 15, 10],
 #         'peak': 30
 #     },
 #     '2': {
-#         'name': "MC Mong Kok",
+#         'name': "MC",
 #         'traffic': [5, 8, 15, 25, 20, 5, 3],
 #         'peak': 25
 #     },
 #     '3': {
-#         'name': "JCC Jockey Club",
+#         'name': "JCC",
 #         'traffic': [6, 9, 18, 28, 25, 10, 5],
 #         'peak': 28
 #     }
